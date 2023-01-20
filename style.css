@@ -29,6 +29,44 @@ body {
   box-shadow: 13px 12px 9px -10px rgba(196,194,196,0.72);
 }
 
+.coin{
+
+  margin-top: 15px;
+
+}
+
+.txtt{
+
+  text-align: center;
+  
+	width: 800px;
+	padding: 30px 0;
+	font-size: 17px;
+	color: black;
+margin-top: -30px;
+
+}
+
+.sc{
+  margin-left: 300px;
+  text-align: center;
+  text-transform: uppercase;
+  border: #da4207 solid -10px ;
+  border-radius: 30px;
+  background: #da4207;
+  width: 196px;
+  padding: 12px 0;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 30px;
+  color: #fff;
+}
+
+
+
+
+
 .mb-0{
 margin-top: -50px;
 }
@@ -103,7 +141,7 @@ section{
   align-items: center;
   justify-content: center;
   color:black;
-  font-size: 70px;
+  
 }
 #Home{
 }
@@ -115,13 +153,22 @@ section{
 }
 #Latest{
   background: #fff;
+  font-size: 70px;
 }
 #Contact{
   background: #f2f2f2;
+  font-size: 70px;
 }
-#Feedback{
+#Opinion{
   background: #e6e6e6;
+  font-size: 70px;
 }
+
+#Partner{
+  background: #f2f2f2;
+  font-size: 70px;
+}
+
 
 .banner_taital {
     width: 100%;
