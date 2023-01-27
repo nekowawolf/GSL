@@ -1,6 +1,5 @@
 body {
-  background: #eee;
-  background-image: url('Img/run.png');
+  
   
 }
 
@@ -11,6 +10,7 @@ body {
 .work {
   font-weight: bold;
   font-size: 15px;
+  
 }
 
 .about span {
@@ -51,9 +51,9 @@ margin-top: -30px;
   margin-left: 300px;
   text-align: center;
   text-transform: uppercase;
-  border: #da4207 solid -10px ;
+  border: blue solid -10px ;
   border-radius: 30px;
-  background: #da4207;
+  background: blue;
   width: 196px;
   padding: 12px 0;
   display: inline-block;
@@ -97,6 +97,7 @@ nav{
  height: 75px;
  background:white;
  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+ z-index: 99;
 }
 nav .navbar{
  display: flex;
@@ -144,28 +145,34 @@ section{
   
 }
 #Home{
+
+ background-image: url('Img/run.png');
+  background-size: cover;
+
 }
 #About{
   background: #f2f2f2;
+ 
 }
 #Team{
   background: #e6e6e6;
+  background-image: url('Img/taiwan.png');
+  background-size: cover;
 }
-#Latest{
-  background: #fff;
-  font-size: 70px;
-}
-#Contact{
-  background: #f2f2f2;
-  font-size: 70px;
+#Roadmap{
+  background: white;
+  background-image: url('Img/social.png	');
+  background-size: cover;
+  
+  
 }
 #Opinion{
-  background: #e6e6e6;
+  background: white;
   font-size: 70px;
 }
 
 #Partner{
-  background: #f2f2f2;
+  background: #e6e6e6;
   font-size: 70px;
 }
 
@@ -187,3 +194,16 @@ section{
     margin: 0px;
 }
 
+.bull {
+
+  margin-left: 30px;
+  margin-top: 240px;
+
+}
+
+.bear {
+
+  margin-left: -1400px;
+  margin-top: 280px;
+
+}
